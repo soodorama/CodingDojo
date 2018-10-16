@@ -1,0 +1,77 @@
+div.container {
+	min-height: 200px;
+}
+
+	div.container div.top {
+		background-color: green;
+		min-height: 100px;
+	}
+
+	div.navbar {
+		background-color: blue;
+		min-height:200px;
+		margin-top: 20px;
+		margin-right: 2%;
+	}
+
+	div.container div.content {
+		background-color: red;
+		min-height: 200px;
+		margin-top: 20px;
+		padding-right: 1%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+		div.container div.content div.subcontent {
+			background-color: yellow;
+			min-height: 150px;
+			margin-bottom: 10px;
+			display:inline-block;
+			margin-left: 2%;
+			margin-top: 10px;
+		}
+
+		div.container div.content div.subfooter {
+			background-color: purple;
+			min-height: 100px;
+			margin: 20px 1%;
+		}
+
+
+@media only screen and (max-width: 480px) {
+	.navbar {
+		display: none;
+	}
+	.content {
+		width:99%;
+	}
+	.subcontent {
+		width:98%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+	.navbar {
+		display: none;
+	}
+	.content {
+		width:99%;
+	}
+	.subcontent {
+		width:47%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.navbar {
+		width:22.5%;
+		display:inline-block;
+	}
+	.content {
+		width:74%;
+	}
+	.subcontent {
+		width:30.5%;
+	}
+}

@@ -1,0 +1,102 @@
+body * {
+	/*outline: 2px dotted green;*/
+	color: rgb(198,214,233);
+}
+
+body a {
+	color: rgb(135,218,225);
+}
+
+body span {
+	color: rgb(110,142,254);
+}
+
+div.container {
+	background-color: rgb(18,53,91);
+	width:970px;
+	min-height: 800px;
+	padding:15px;
+}
+
+	div.container div.header {
+		background-color: rgb(215,38,56);
+		width:930px;
+		min-height: 20px;
+		padding:20px 15px;
+		margin-left:5px;
+		border-radius:10px;
+	}
+
+		div.container div.header h1 {
+			margin:0px;
+		}
+
+	div.container div.middle {
+		width:960px;
+		min-height: 600px;
+		margin-left: 5px;
+		padding-top: 20px;
+	}
+
+		div.container div.middle div.nav {
+			width: 185px;
+			min-height: 220px;
+			display: inline-block;
+			vertical-align: top;
+			background-color:rgb(8,126,139);
+			padding-left:20px;
+			padding-top:20px;
+			border-radius:10px;
+		}
+
+			div.container div.middle div.nav ul {
+				margin:0px;
+				padding-left:20px;
+			}
+
+		div.container div.middle div.content {
+			width: 710px;
+			min-height: 600px;
+			display: inline-block;
+			background-color: rgb(12,24,33);
+			margin-left:20px;
+			padding-left: 20px;
+			border-radius:10px;
+		}
+
+		div.container div.middle div.content h2 {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+
+		div.container div.middle div.content ul {
+			padding-left: 15px;
+			padding-right: 10px;
+		}
+
+
+	div.container div.footer {
+		width:960px;
+		min-height: 60px;
+		margin-left:5px;
+		margin-top:20px;
+		background-color:rgb(95,102,114);
+		border-radius:10px;
+	}
+
+		div.container div.footer p {
+			padding-top:20px;
+			margin:0px;
+			padding-left: 20px;
+		}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+body * {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: sans-serif;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	/*outline: 2px dotted green;*/
+	padding: 0;
+	margin: 0;
+}
+
+div.container {
+	background-color: white;
+	width: 1175px;
+	min-height: 800px;
+	padding: 0px 100px;
+}
+
+	div.container span {
+		color: rgb(0,103,155);
+	}
+
+	div.container img#globeimg {
+		width: 110px;
+	}
+
+	div.container h1 {
+		font-size: 50px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 17px;
+	}
+
+	div.container h2 {
+		color: white;
+		font-size: 35px;
+		background: linear-gradient(rgb(0,103,155), rgb(72,134,170),rgb(0,103,155));
+		border: 1px solid rgb(0,103,155);
+		padding: 17px 0px 17px 20px;
+		margin-top: -30px;
+	}
+
+	div.container div.bggradient {
+		background: linear-gradient(rgb(225,226,226),white);
+	}
+
+	div.container div.sidebar {
+		width: 240px;
+		min-height: 595px;
+		padding-left: 5px;
+		display: inline-block;
+	}
+
+		div.container div.sidebar h3 {
+			font-size: 20px;
+			padding-top: 20px;
+		}
+
+		div.container div.sidebar h3 span {
+			color: rgb(227,17,34);
+		}
+
+		div.container div.sidebar p {
+			font-size: 18px;
+			padding-top: 10px;
+		}
+
+		div.container div.sidebar a {
+			margin-left: 10px;
+			margin-top: 10px;
+			margin-right: 10px;
+			text-align: center;
+			color: white;
+			text-decoration: none;
+			padding: 10px 30px 12px;
+			border-radius: 5px;
+			box-shadow: 2px 2px 3px rgb(142,142,142);
+			display: block;
+		}
+
+			div.container div.sidebar a#videobtn {
+				background: linear-gradient(rgb(89,155,193), rgb(0,104,156));
+			}
+
+			div.container div.sidebar a#resourcebtn {
+				background: linear-gradient(rgb(221,168,82), rgb(217,124,59));
+			}
+
+			div.container div.sidebar div.ad {
+				width: 245px;
+				min-height: 350px;
+				border-top: 2px solid rgb(137,137,137);
+				margin-top: 30px;
+				margin-left:-5px;
+				background-image: url(images/ad_background.png);
+			}
+
+				div.container div.sidebar div.ad p {
+					color: white;
+					text-align: center;
+					font-size: 30px;
+				}
+
+				div.container div.sidebar div.ad img {
+					width: 100px;
+					margin-left: 70px;
+				}
+
+				div.container div.sidebar div.ad a {
+					background: linear-gradient(rgb(138,198,212), rgb(75,180,207));
+					font-size: 22px;
+					padding: 6px;
+					margin-left:15px;
+					margin-right:15px;
+				}
+
+					div.container div.sidebar div.ad a span {
+						color: white;
+						font-size: 10px;
+						vertical-align: middle;
+					}
+
+	div.container div.content {
+		width: 865px;
+		vertical-align: top;
+		min-height: 595px;
+		display: inline-block;
+		margin-left: 50px;
+		padding-right: 10px;
+	}
+
+		div.container div.content img#homeimg {
+			width:20px;
+			margin-top: 10px;
+			vertical-align: top;
+		}
+
+		div.container div.content a {
+			text-decoration: none;
+			display: inline-block;
+			color: rgb(0,103,155);
+			margin-left: 3px;
+			vertical-align: top;
+			margin-top: 12px;
+		}
+
+		div.container div.content img#phoneimg {
+			width: 40px;
+			vertical-align: top;
+			margin-left: 610px;
+			margin-top: 8px;
+		}
+
+		div.container div.content div.contact {
+			width: 130px;
+			min-height: 50px;
+			display: inline-block;
+			margin-left: 10px;
+		}
+
+		div.container div.content p {
+			display:inline-block;
+			font-size: 9px;
+			text-align: left;
+			vertical-align: top;
+			margin-top: 2px;
+		}
+
+			div.container div.content p#helpnumber {
+				color: rgb(0,193,220);
+				font-size: 22px;
+				margin-left: -5px;
+				margin-top: -7px;
+			}
+
+		div.container div.content h3 {
+			color: rgb(0,103,155);
+			font-weight: 500;
+			font-size: 20px;
+		}
+
+		div.container div.content ul,ol {
+			margin-left: 40px;
+		}
+
+			div.container div.content ul li {
+				font-size:16px;
+				margin-top: 10px;
+			}
+
+		div.container div.content ol li {
+			font-size: 16px;
+			margin-top:10px;
+		}
+
+		div.container div.content span {
+			color: rgb(0,193,220);
+		}
+
+		div.container div.content div.clientservers {
+			width:862px;
+			margin-top: 10px;
+			border-top: 2px solid rgb(137,137,137);
+		}
+
+			div.container div.content div.clientservers h3 {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			div.container div.content div.clientservers p {
+				font-size: 16px;
+			}
+
+			div.container div.content div.clientservers em {
+				font-weight: bold;
+			}
+
+			div.container div.content div.clientservers img {
+				width:300px;
+				margin-left: 280px;
+			}
+
+		div.container div.content div.whathappens {
+			margin-top: 10px;
+			width: 862px;
+		}	
+
+
+		div.container div.content div.bigthree {
+			margin-top: 20px;
+			padding: 10px;
+			width: 820px;
+			min-height: 100px;
+			border-top: 5px solid rgb(0,139,219);
+			border-right: 5px solid rgb(0,139,219);
+			border-left: 5px solid rgb(0,139,219);
+			box-shadow: 8px 0 10px -5px black;
+		}
+
+			div.container div.content img {
+				width:110px;
+			}
+
+			div.container div.content div.aboutbig {
+				display: inline-block;
+				width: 680px;
+				vertical-align: top;
+				margin-left: 20px;
+			}
+
+				div.container div.content div.aboutbig p {
+					font-size: 16px;
+					margin-top: 10px;
+				}
+
+					div.container div.content div.aboutbig p em {
+						font-style: italic;
+					}
+
+
+
+
+
+
+
+
+
+
+
+

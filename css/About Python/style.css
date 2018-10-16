@@ -1,0 +1,253 @@
+body * {
+	/*outline: 2px dotted green;*/
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+div.container {
+	width: 970px;
+	min-height: 700px;
+	background-color: rgb(46,80,115);
+	padding-top: 10px;
+}
+
+	div.container p {
+		margin: 0px;
+		text-align: right;
+		padding-right: 50px;
+	}
+
+		div.container p a {
+			color: rgb(250,213,85);
+		}
+
+		div.container span {
+			color: black;
+		}
+
+
+	div.container div.header {
+		width: 970px;
+		min-height: 100px;
+	}
+
+		div.container div.header img {
+			width: 330px;
+			margin-left: 20px
+		}
+
+		div.container div.header div.search {
+			width: 280px;
+			min-height: 60px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 320px;
+			background-color: rgb(68,68,68);
+			box-shadow: 5px 5px 10px rgb(31,31,31);
+			border-radius: 10px;
+			margin-top: 8px;
+		}
+
+			div.container div.header div.search div.inputbox {
+				width: 170px;
+				min-height: 35px;
+				background-color: white;
+				margin-left: 30px;
+				margin-top: 13px;
+				display: inline-block;
+				outline: 2px solid rgb(154,154,154);
+				box-shadow: inset 0px 0px 10px rgb(154,154,154);
+			}
+
+				div.container div.header div.search div.inputbox p {
+					padding:0px;
+					display: inline-block;
+					color: rgb(169,169,169);
+					margin-left: 65px;
+					margin-top: 10px;
+				}
+
+			div.container div.header div.search a {
+				text-decoration: none;
+				padding: 5px;
+				margin-left:9px;
+				background-color: rgb(46,80,115);
+				border-top: 2px solid rgb(195,195,195);
+				border-left: 2px solid rgb(195,195,195);
+				border-right: 2px solid rgb(105,105,105);
+				border-bottom: 2px solid rgb(105,105,105);
+				border-radius: 5px;
+			}
+			
+
+	div.container div.topnav {
+		width: 910px;
+		min-height: 42px;
+		margin-left: 30px;
+		background: linear-gradient(rgb(70,116,168), rgb(84,126,186), rgb(70,116,168));
+		border-radius: 5px;
+		box-shadow: 5px 5px 10px rgb(31,31,31);
+	}
+
+		div.container div.topnav ul {
+			margin: 0px;
+			padding-top: 10px;
+			padding-left: 0px;
+			list-style-type: none;
+			display: inline-block;
+		}
+
+			div.container div.topnav ul li {
+				display: inline-block;
+			}
+
+				div.container div.topnav ul li a {
+					text-decoration: none;
+					font-size: 20px;
+					margin-left: 55px;
+				}
+
+	div.container div.middle {
+		width: 970px;
+		min-height: 245px;
+		padding-top: 20px;
+	}
+
+		div.container div.middle div.sidenav {
+			width: 200px;
+			min-height: 200px;
+			margin-left: 80px;
+			margin-top: 10px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+			div.container div.middle div.sidenav ul {
+				margin: 0px;
+				padding: 0px;
+				text-align: center;
+				list-style-position: inside;
+			}
+
+				div.container div.middle div.sidenav ul li {
+					margin-top: 10px;
+				}
+
+		div.container div.middle div.aboutpython {
+			width: 620px;
+			min-height: 230px;
+			display: inline-block;
+			margin-left: 25px;
+		}
+
+			div.container div.middle div.aboutpython p {
+				text-align: center;
+				padding-left: 40px;
+			}
+
+				div.container div.middle div.aboutpython p#pybio {
+					font-size: 12px;
+				}
+
+				div.container div.middle div.aboutpython p.pyquote {
+					color: rgb(250,213,85);
+					font-style: italic;
+					margin-top: 10px;
+				}
+
+				div.container div.middle div.aboutpython p#pyzen {
+					margin-top: 10px;
+				}
+
+	div.container div.bottom {
+		width: 900px;
+		min-height: 230px;
+		background-color: white;
+		border-top: 3px solid rgb(32,55,81);
+		padding-left: 70px;
+	}
+
+		div.container div.bottom div.guidelibrary {
+			width: 410px;
+			min-height: 220px;
+			margin-top: 7px;
+			margin-left: 20px;
+			border-top: 5px solid rgb(118,156,196);
+			display: inline-block;
+			vertical-align: top;
+		}
+
+			div.container div.bottom div.guidelibrary h3 {
+				color: black;
+				text-align: center;
+				font-weight: 500;
+				font-size: 16px;
+				margin-bottom: 10px;
+			}
+
+			div.container div.bottom div.guidelibrary p {
+				color: black;
+				text-align: center;
+				padding: 0px 50px;
+			}
+
+			div.container div.bottom div.guidelibrary a {
+				color: rgb(127,168,209);
+				text-decoration: none;
+			}
+
+			div.container div.bottom div.guidelibrary ul {
+				text-align: center;
+				margin-top: 5px;
+				margin-bottom: 0px;
+				padding: 0px 80px;
+			}
+
+				div.container div.bottom div.guidelibrary ul li {
+					color: black;
+				}
+
+	div.container div.footer {
+		width: 970px;
+		min-height: 100px;
+		background: linear-gradient(rgb(46,80,115), rgb(68,117,169));
+	}
+
+		div.container div.footer ul {
+			margin-top: 50px;
+			padding-left: 0px;
+			margin-bottom: 0px;
+			margin-left: 230px;
+			list-style-type: none;
+			display: inline-block;
+		}
+
+			div.container div.footer ul li {
+				display: inline-block;
+				margin-right: 65px;
+			}
+
+				div.container div.footer ul li a {
+					color: rgb(145,185,225);
+					text-decoration: none;
+				}
+
+		div.container div.footer p {
+			font-size: 10px;
+			text-align: center;
+			padding-right: 0px;
+			padding-bottom: 5px;
+			margin-top: 25px;
+			color: rgb(145,185,225);
+		}
+
+
+
+
+
+
+
+
+

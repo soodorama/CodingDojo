@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Stats</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <style>
+        div {
+            display:inline-block;
+            margin:1px;
+        }
+
+        div.pokemon {
+            width:79%;
+        }
+        div.stats {
+            width:19%;
+        }
+        img {
+            width:30px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokemon"></div>
+    <div class="stats"></div>
+
+    <script>
+        $(document).ready(function() {
+            $.get('https://pokeapi.co/api/v2/pokemon/', function(res) {
+                for (var i = 0; i < res.results.length; i++) {
+                    // html_render = "<div>"+res.results[i].name+"</div>";
+                    html_render = "<img id='" + i + "' alt='"+ res.results[i].name +"' src='https://pokeapi.co/media/img/"+i.toString()+".png'>"
+                    $(".pokemon").append(html_render)
+                }
+            }, 'json')
+        })
+        // $.get('https://pokeapi.co/api/v2/pokemon/', function(res) {
+        //     html_render = "<img id='" + id + "' src=https://pokeapi.co/api/v2/pokemon/"
+        // }, 'json')
+    </script>
+</body>
+</html>
